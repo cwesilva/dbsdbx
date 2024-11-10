@@ -1,0 +1,23 @@
+## fist version      
+import pandas as pd
+
+dados = {'Nome': ['Alice', 'Bob', 'Charlie'], 'Idade': [25, 30, 35]}
+df = pd.DataFrame(dados)
+
+# Questão 1: Cria um subconjunto dos dados contendo as pessoas cuja idade é maior do que 30 anos
+subset = df[df['Idade'] > 30]
+print("Subconjunto com idade > 30 anos:\n", subset)
+
+# Questão 2: Calcula a média das idades
+media_idade = df['Idade'].mean()
+print("Média das idades:", media_idade)
+
+# Questão 3: Seleciona uma coluna específica e armazena em uma variável
+coluna_nome = df['Nome']
+print("Coluna Nome:\n", coluna_nome)
+
+# Questão 4: Visualiza a primeira linha do DataFrame
+primeira_linha = df.iloc[0]
+primeira_linha = df.head(1)
+print("Primeira linha do DataFrame:\n", primeira_linha)
+
