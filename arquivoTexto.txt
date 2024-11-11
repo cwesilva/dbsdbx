@@ -1,7 +1,10 @@
-nova frase
-uma nova linha
-mais novas linhas
-quarta frase 
+
+## Cristiano Weckerlin e Silva
+## https://github.com/cwesilva/dbsdbx
+## nova frase
+## uma nova linha
+## mais novas linhas
+## quarta frase 
 # Definindo as matrizes A e B
 A <- matrix(c(11, 9, 7, 8, 14,
               8, 10, 4, 12, 13,
@@ -29,6 +32,3 @@ soma_C <- sum(C)
 
 # Exibindo a soma
 print(sprintf("Soma dos elementos de C: %.3f", soma_C))
-
-## Cristiano Weckerlin e Silva
-## https://github.com/cwesilva/dbsdbx
