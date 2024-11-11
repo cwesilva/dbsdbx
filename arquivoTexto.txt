@@ -2,3 +2,33 @@ nova frase
 uma nova linha
 mais novas linhas
 quarta frase 
+# Definindo as matrizes A e B
+A <- matrix(c(11, 9, 7, 8, 14,
+              8, 10, 4, 12, 13,
+              13, 10, 11, 11, 6,
+              11, 8, 9, 13, 7,
+              11, 13, 11, 8, 5), 
+            nrow = 5, byrow = TRUE)
+
+B <- matrix(c(4, 8, 10, 14, 8,
+              9, 5, 18, 11, 15,
+              8, 10, 10, 10, 13,
+              5, 16, 7, 5, 11,
+              15, 14, 16, 14, 17), 
+            nrow = 5, byrow = TRUE)
+
+# Calculando a matriz C = A + B
+C <- A + B
+
+# Exibindo a matriz C
+print("Matriz C = A + B:")
+print(C)
+
+# Calculando a soma dos elementos da matriz C
+soma_C <- sum(C)
+
+# Exibindo a soma
+print(sprintf("Soma dos elementos de C: %.3f", soma_C))
+
+## Cristiano Weckerlin e Silva
+## https://github.com/cwesilva/dbsdbx
